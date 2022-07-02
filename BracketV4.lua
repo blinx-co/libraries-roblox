@@ -1,4 +1,3 @@
--- ui lib
 local Library = {}
 
 function Library:GetColor(color, table)
