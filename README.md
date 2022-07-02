@@ -9,7 +9,7 @@ local Config = {
 	Keybind = Enum.KeyCode.RightBracket
 }
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Roblox/main/BracketV3.lua"))()
+local Library = loadstring(game:HttpGet("https://github.com/blinx-co/libraries-roblox/blob/main/BracketV4.lua"))()
 local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
 
 local Tab1 = Window:CreateTab("Example")
